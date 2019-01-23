@@ -1,0 +1,6 @@
+#Posts #Post{padding: 10px;margin:0;}
+#Posts #Post p{margin: 10px 0;}
+
+@media only screen and (max-width: 800px) {
+    #Posts #Post p{font-size: 12px;}
+}

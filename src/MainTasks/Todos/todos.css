@@ -1,0 +1,7 @@
+#Todos #Todo{padding: 10px;margin: 0;display: flex;flex-flow: row;justify-content: space-between;align-items: center;}
+#Todos #Todo p{margin: 2px 0;}
+
+@media only screen and (max-width: 800px) {
+    #Todos #Todo{display: block;}
+    #Todos #Todo p{font-size: 12px;}
+}

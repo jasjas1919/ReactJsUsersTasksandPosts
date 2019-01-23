@@ -1,0 +1,19 @@
+#Users{text-align: left;}
+#Users .usrsMapping #User{border: 3px solid #b0fde2;margin: 10px 0;padding: 10px;}
+#Users .usrsMapping.grey-bg{background:#3570cb21;}
+#Users .usrsMapping:first-of-type{margin: 0 0 10px;}
+#Users .usrsMapping p.p-id{display: block;}
+#Users .usrsMapping p{display: inline-block; width: 20%;font-size: 16px;}
+#Users .usrsMapping .headlineDiv{display: flex;flex-flow: row;justify-content: space-between;}
+#Users .user-btn{text-align: center;width: 30%;display: inline-block;cursor: pointer;background: #b0fde2;border: none;border-radius: 3px;font-size: 15px;padding: 7px;margin: 10px 10px 0 0;}
+#Users .btn-other{background: #d0cfcf;}
+#Users #otherData{display: none;}
+#Users #otherData.active{display:block;display: block;margin:10px 0;background: #b0fde2;padding: 10px;border-radius: 10px;}
+
+
+
+@media only screen and (max-width: 800px) {
+    #Users .usrsMapping p{font-size: 14px;width: 60px;}
+    #Users .user-btn{font-size: 13px;margin-right: 5px;}
+    #Users .usrsMapping input[type='text']{width: 68%;}
+}

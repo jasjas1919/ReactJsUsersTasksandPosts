@@ -1,0 +1,21 @@
+.addContainer{min-width: 45%;}
+.newInfo {margin: 20px;}
+.addDiv {padding: 20px 20px 15px 20px;border: 1px solid #000;margin: 20px;display: flex;justify-content: space-between;}
+.addDiv .btns{margin-top: 30px;display: flex;width: 100px;justify-content: space-between;align-items: flex-end;}
+
+
+@media only screen and (max-width: 800px) {
+    .addContainer {
+        min-width: 45%;
+        width: 80%;
+        position: absolute;
+        background: #e4e4e4cf;
+        border: 5px solid #b0f5fd;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid #000;
+    }
+    .addDiv{border: none;display: block;margin: 0;padding-top: 0;}
+    .addDiv input[type="text"]{width: -webkit-fill-available;}
+}

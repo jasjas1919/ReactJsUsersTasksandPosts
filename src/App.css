@@ -1,0 +1,20 @@
+.App{display: flex;flex-flow: row;justify-content: space-between;align-items: flex-start;}
+p{margin: 0;}
+input{padding: 5px;margin: 3px 0;font-size: 12px;}
+.UsersContainer{width: 50%;display: inline-block;max-width: 600px;}
+.UsersContainer .info{padding: 10px;border: 1px solid #000;background: #b0fde2;display: inline-block;margin-bottom: 20px;}
+.UsersContainer .info p{vertical-align: middle;max-width: 25px;}
+.UsersContainer .info span{font-size: 12px;vertical-align: middle;}
+.UsersContainer .usersWrap{text-align: center; padding-bottom: 100px;}
+.UsersContainer .usersWrap .btn-addUser{float: right;}
+.btn-showMissions{display: inline-block;background: url('./img/tasks.png') no-repeat;width: 30px;background-size: contain;border: none;height: 30px;cursor: pointer;}
+.btn-showMissions.notCompleted{background: url('./img/tasks1.png') no-repeat;background-size: contain;}
+
+
+@media only screen and (max-width: 800px) {
+    .UsersContainer{width: 100%;background: #fff;max-width: 100%;}
+    input{font-size: 11px;}
+    .UsersContainer .usersWrap{margin: 10px;}
+    .btn-showMissions{width: 25px;}
+
+}
